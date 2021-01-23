@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&display=swap');
+.body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.custom-shadow{
+    box-shadow: 5px 5px 10px lightgray;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul,
+li{
+    margin: 0;
+    padding: 0;
+}
+/* header css start */
+header,
+.woman-jacket-area,
+.man-jacket-area,
+.service-area,
+footer{
+    padding: 50px 0;
+}
+header{
+    background-color: #FFFBF0;
+}
+.logo{
+    width: 300px;
+    height: auto;
+}
+/* menu css start */
+#menu li a{
+    font-weight: bold;
+    padding: 0 25px;
+}
+/* profile part css start */
+.profile-text h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.orange{
+    color: #FABE4C;
+}
+.buynow-btn{
+    background-color: #A4BC46;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 10px;
+}
+.buynow-btn:hover{
+    color: #fff;
+}
+.buynow-btn img{
+    width: 30px;
+}
+
+/* card css start */
+.card-image > img{
+    background-color:silver;
+    height: 400px;
+    object-fit: contain;
+}
+/* women jacket css stat */
+.ladies-item{
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+}
+
+/* service css part start */
+.service-icon img{
+    width: 150px;
+    margin-right: 25px;
+}
